@@ -1,6 +1,6 @@
 # Atlas of Remote Islands: A React Lab
 
-![Brava Page Spread](images/brava.jpg)
+![Brava Page Spread](images/brava.png)
 
 This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Never Set Foot On and Never Will](https://www.amazon.com/Atlas-Remote-Islands-Fifty-Never/dp/014311820X)_ by Judith Schalansky. The book describes 50 remote islands from around the world; data about those islands has been collected into the `src/atlas-of-remote-islands.js` file. Your goal is to represent the islands as options on a travel-like site.
 
