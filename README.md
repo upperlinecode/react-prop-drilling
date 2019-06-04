@@ -24,15 +24,15 @@ This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Ne
 
 2. One card has already been componentized for you. Use `.map()` to update `App.js` so that it generates a card for each entry in `data.islands`.
 
-> It's ok if the cards don't get have any data in them, but there should be a total of 50 cards.
+> It's ok if the cards don't yet have any data in them, but there should be a total of 50 cards.
 
 3. Update your `.map()` function to pass data about each island to each card as props. You can `console.log(props)` in `Card.js` to check that props are being passed.
 
-4. From `Card.js`, pass props to the `<CardInfo />` component for the island name, description, latitude, longitude, and wikipedia link.
+4. From `Card.js`, pass props to the `<CardInfo />` component for the island name, description, latitude, longitude, and Wikipedia link.
 
 5. Display the island name, description, latitude, and longitude in the card. Then pass the Wikipedia link as a prop to the `<WikiButton />` component, and set the `href` for the `<a>` tag around the button. Clicking on each button should open that island's Wikipedia page in a new tab.
 
-6. Pass the `image` URL to `<CardImage />` component, and check that CardImage.js is receiving it.
+6. Pass the `image` URL to `<CardImage />` component, and check that `CardImage.js` is receiving it.
 
 7. Use inline styling to set the `backgroundImage` of the `<div>` with `className=card-image` as the `image` passed to `<CardImage />` via props.
 
@@ -43,3 +43,5 @@ This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Ne
 9. Update the interface to group cards by their `region`: Arctic Ocean, Atlantic Ocean, Indian Ocean, Pacific Ocean, Antarctic Ocean. How might you pre-process the `data` in order to get a list of all unique regions?
 
 > Hint: consider how you might use the `.filter()` method to populate cards in each section.
+
+10. Add an option that sorts islands (a) alphabetically by name (A to Z), or (b) by page number (lowest to highest). Store the choice in state and apply the sort to each region.
