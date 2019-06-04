@@ -1,6 +1,6 @@
-# React Parent-Child Lecture
+# Atlas of Remote Islands: A React Lab
 
-This repository accompanies the lecture on parent and child components. See the [Lecture Notes](https://github.com/upperlinecode/CS-and-the-City-Curriculum/blob/with-unit-2/react/4-react.md) for additional framing.
+This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Never Set Foot On and Never Will](https://www.amazon.com/Atlas-Remote-Islands-Fifty-Never/dp/014311820X)_ by Judith Schalansky. The book describes 50 remote islands from around the world; data about those islands has been collected into the `src/atlas-of-remote-islands.js` file. Your goal is to represent the islands as options on a travel-like site.
 
 ## Getting Started in CS50
 
@@ -15,3 +15,5 @@ This repository accompanies the lecture on parent and child components. See the 
     1. tap the `CS50 IDE` link in the header
     2. choose `Web Server`
 7. If the app fails to compile, re-clone the repository
+
+## The Lab
