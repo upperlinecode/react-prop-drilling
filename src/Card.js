@@ -5,7 +5,7 @@ import CardInfo from './CardInfo.js';
 
 const Card = () => {
     return(
-        <li className="cards-item third">
+        <li className="cards-item fourth">
           <div className="card">
             <div className="card-content">
                 <CardImage />
