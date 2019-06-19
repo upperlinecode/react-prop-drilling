@@ -44,6 +44,8 @@ This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Ne
 
 > Hint: you can use the latitude and longitude along with Google Maps' `<embed>` code; also, set the width of the embed to `100%` to fill the container.
 
+> Depending on how you've accomplished this, consider commenting out this component while you work on the remaining tasks so you're not re-rendering the maps each time.
+
 9. Update the interface to group cards by their `region`: Arctic Ocean, Atlantic Ocean, Indian Ocean, Pacific Ocean, Antarctic Ocean. How might you pre-process the `data` in order to get a list of all unique regions?
 
 > Hint: consider how you might use the `.filter()` method to populate cards in each section.
