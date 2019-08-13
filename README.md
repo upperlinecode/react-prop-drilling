@@ -6,19 +6,12 @@ This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Ne
 
 > NOTE: A geographic map and a `.map()` method are two different things, and the meanings can get a little muddled if you aren't careful. The reason the `.map()` method is named how it is - each item in the new array corresponds to (maps to) an item in the original array. For our purposes, we're going to be careful to use the phrase `.map()` when we mean the method, and Map when we mean the geographic representation. 
 
-## Getting Started in CS50
+## Getting Started
 
 1. Clone this repository using `git clone`
 2. `cd` into the `react-prop-drilling` folder
 3. `npm install`
 4. `npm start`
-5. If the app compiles with no errors:
-    1. click on the `localhost` link, or
-    2. tap the `CS50 IDE` link in the header and choose `Web Server`
-6. If the app compiles with errors, to view the live app:
-    1. tap the `CS50 IDE` link in the header
-    2. choose `Web Server`
-7. If the app fails to compile, re-clone the repository
 
 ## The Lab
 
