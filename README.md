@@ -4,12 +4,12 @@
 
 This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Never Set Foot On and Never Will](https://www.amazon.com/Atlas-Remote-Islands-Fifty-Never/dp/014311820X)_ by Judith Schalansky. The book describes 50 remote islands from around the world; data about those islands has been collected into the `src/atlas-of-remote-islands.js` file. Your goal is to represent the islands as options on a travel-like site.
 
-> NOTE: A geographic map and a `.map()` method are two different things, and the meanings can get a little muddled if you aren't careful. The reason the `.map()` method is named how it is - each item in the new array corresponds to (maps to) an item in the original array. For our purposes, we're going to be careful to use the phrase `.map()` when we mean the method, and Map when we mean the geographic representation. 
+> NOTE: A geographic map and a `.map()` method are two different things, and the meanings can get a little muddled if you aren't careful. The reason the `.map()` method is named how it is - each item in the new array corresponds to (maps to) an item in the original array. For our purposes, we're going to be careful to use the phrase `.map()` when we mean the method, and Map when we mean the geographic representation.
 
 ## Getting Started
 
 1. Clone this repository using `git clone`
-2. `cd` into the `react-prop-drilling` folder
+2. `cd` into the project folder
 3. `npm install`
 4. `npm start`
 
@@ -30,6 +30,8 @@ This lab is based on the book _[Atlas of Remote Islands: Fifty Islands I Have Ne
 6. Pass the `image` URL to `<CardImage />` component, and check that `CardImage.js` is receiving it.
 
 7. Use inline styling to set the `backgroundImage` of the `<div>` with `className=card-image` as the `image` passed to `<CardImage />` via props.
+
+## Extensions
 
 ![Google Maps Component](images/google-maps.png)
 
