@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Card from './Card.js';
+import Card from './components/Card.js';
 import data from './atlas-of-remote-islands.js';
 
 const App = () => {
