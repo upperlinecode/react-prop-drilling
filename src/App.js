@@ -3,31 +3,25 @@ import './App.css';
 import Card from './components/Card.js';
 import data from './atlas-of-remote-islands.js';
 
-const App = () => {
-  const component = new React.Component()
+function App() {
+  console.log(data);
   
-  component.render = () => {
-    console.log(data);
-    
-    return (
-      <div>
-        <div className="container">
-          <h1 className="section-title">Atlas of Remote Islands</h1>
-        </div>
-        
-        <div className="container">
-          <h2 className="section-title">Islands</h2>
-          <ul className="cards">
-            
-            <Card />
-            
-          </ul>
-        </div>
+  return (
+    <div>
+      <div className="container">
+        <h1 className="section-title">Atlas of Remote Islands</h1>
       </div>
-    );
-  }
-  
-  return component
+      
+      <div className="container">
+        <h2 className="section-title">Islands</h2>
+        <ul className="cards">
+          
+          <Card />
+          
+        </ul>
+      </div>
+    </div>
+  );
 }
 
 export default App;
