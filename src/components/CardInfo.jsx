@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import WikiButton from "./WikiButton.js";
+import WikiButton from "./WikiButton.jsx";
 
 const CardInfo = () => {
   return (

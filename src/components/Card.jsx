@@ -1,9 +1,9 @@
 import React from "react";
 import "../App.css";
 import CardImage from "./CardImage.jsx";
-import CardInfo from "./CardInfo.js";
+import CardInfo from "./CardInfo.jsx";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <li className="cards-item fourth">
       <div className="card">
