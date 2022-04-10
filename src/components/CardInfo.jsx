@@ -1,9 +1,9 @@
-import React from 'react';
-import '../App.css';
-import WikiButton from './WikiButton.js';
+import React from "react";
+import "../App.css";
+import WikiButton from "./WikiButton.js";
 
-function CardInfo() {
-  return(
+const CardInfo = () => {
+  return (
     <div className="card-container">
       <div className="card-title">Island Name</div>
       <p className="card-text description">Description</p>
@@ -11,6 +11,6 @@ function CardInfo() {
       <WikiButton />
     </div>
   );
-}
+};
 
 export default CardInfo;
