@@ -23,3 +23,13 @@ const App = () => {
 };
 
 export default App;
+
+/* {data.islands.map((island) => (
+            <Card
+              name={island.name}
+              description={island.description}
+              lat={island.coords.lat}
+              lon={island.coords.lon}
+              image={island.image}
+            />
+          ))} */

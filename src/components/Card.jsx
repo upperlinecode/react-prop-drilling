@@ -8,8 +8,13 @@ const Card = (props) => {
     <li className="cards-item fourth">
       <div className="card">
         <div className="card-content">
-          <CardImage />
-          <CardInfo />
+          <CardImage image={props.image} />
+          <CardInfo
+            name={props.name}
+            description={props.description}
+            lat={props.lat}
+            lon={props.lon}
+          />
         </div>
       </div>
     </li>
